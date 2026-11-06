@@ -1,0 +1,29 @@
+{
+  "runtime": "Kaggle",
+  "gpu": "Tesla T4",
+  "status": "Four reviewed pairs packaged for the offline Android gallery.",
+  "selected_training_photos": 10,
+  "generated_images": 4,
+  "approved_images": 4,
+  "generator_loaded": true,
+  "classifier_artaug_retraining_completed": false,
+  "run_status": {
+    "status": "ready",
+    "stage": "photo_saved",
+    "generated_count": 4,
+    "total_selected": 10,
+    "updated_utc": "2026-11-06T08:04:35.663085+00:00"
+  },
+  "submitted_files_sha256": {
+    "notebook1de733c498.ipynb": "af26936ba13d8d9b6f84539239bf81241572ef486cc1eca6689a8483a7efeb68",
+    "ArtAug_Pilot_Output.zip": "9770307dccef5f54fcc3916383159ca79bb8f9299cad11345d9ea4f49142eb74"
+  },
+  "reproduction_notebook": "ml/ObjectLab_ArtAug_Kaggle_10.ipynb",
+  "manifest": "android/app/src/main/assets/artaug/manifest.json",
+  "classes_in_gallery_order": [
+    "bottles",
+    "cups",
+    "pens",
+    "scissors"
+  ]
+}

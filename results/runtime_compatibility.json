@@ -1,0 +1,33 @@
+{
+  "runtime_version": "1.20.1",
+  "provider": "CPUExecutionProvider",
+  "scope": "Desktop Python ONNX Runtime; not Android device verification",
+  "models": {
+    "baseline": {
+      "test_images": 81,
+      "correct": 27,
+      "accuracy": 0.3333333333333333,
+      "max_probability_error_vs_recorded_pytorch": 1.1920928955078125e-07,
+      "batch_sizes_checked": [
+        1,
+        2
+      ],
+      "probabilities_finite_normalized": true,
+      "heatmaps_finite_in_0_1": true,
+      "sha256": "0852f5d72ba921c3a64d7156dff0a8245ece358326fd72256a3f70b25e837dbc"
+    },
+    "sota": {
+      "test_images": 81,
+      "correct": 79,
+      "accuracy": 0.9753086419753086,
+      "max_probability_error_vs_recorded_pytorch": 1.4901161193847656e-06,
+      "batch_sizes_checked": [
+        1,
+        2
+      ],
+      "probabilities_finite_normalized": true,
+      "heatmaps_finite_in_0_1": true,
+      "sha256": "381de3415650cfea748bf70880b117674bc0685c367a9f4b5d738bd7b8e10555"
+    }
+  }
+}

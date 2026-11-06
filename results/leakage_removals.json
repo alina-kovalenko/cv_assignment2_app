@@ -1,0 +1,10 @@
+{
+  "source": "work\\dataset_v2",
+  "prepared_copy": "work\\dataset_clean",
+  "reviewed_cross_split_candidate_pairs": 21,
+  "candidate_components": 21,
+  "removed_nonpriority_cross_split_copies": 21,
+  "removed_same_split_exact_duplicates": 1,
+  "test_images_preserved": true,
+  "priority": "test > validation > training"
+}

@@ -1,0 +1,33 @@
+{
+  "class_order": [
+    "bottles",
+    "cups",
+    "pens",
+    "scissors"
+  ],
+  "counts": {
+    "train": {
+      "bottles": 121,
+      "cups": 118,
+      "pens": 122,
+      "scissors": 120
+    },
+    "val": {
+      "bottles": 21,
+      "cups": 21,
+      "pens": 21,
+      "scissors": 20
+    },
+    "test": {
+      "bottles": 20,
+      "cups": 20,
+      "pens": 21,
+      "scissors": 20
+    }
+  },
+  "image_count": 645,
+  "invalid_images": [],
+  "exact_duplicate_hash_occurrences": 1,
+  "cross_split_exact_duplicate_pairs": [],
+  "cross_split_phash_candidates_le_6_bits": 21
+}

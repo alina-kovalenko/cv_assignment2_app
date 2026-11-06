@@ -1,0 +1,63 @@
+{
+  "seed": 2,
+  "max_epochs": 30,
+  "batch_size": 16,
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "early_stopping": {
+    "monitor": "val_loss",
+    "patience": 7,
+    "restore_best_weights": true
+  },
+  "lr_plateau": {
+    "monitor": "val_loss",
+    "patience": 3,
+    "factor": 0.5,
+    "minimum": 1e-06
+  },
+  "augmentation": {
+    "horizontal_flip_probability": 0.5,
+    "rotation_degrees": [
+      -18,
+      18
+    ],
+    "contrast_factor": [
+      0.9,
+      1.1
+    ]
+  },
+  "ablation": "MobileNetV4 train augmentation enabled vs disabled; same seed and schedule",
+  "augmentation_bank": "For each training image cache original plus four deterministic seeded augmented views; each epoch selects exactly one view per image. Frozen GAP features are precomputed once. Validation/test features use original images only.",
+  "backbone": "mobilenetv4_conv_small.e2400_r224_in1k",
+  "backbone_pretrained": true,
+  "backbone_pretrained_sha256": "7a7102ec18f62bbfb555b6fe829bbb5af749516b84174926c29ffdfdfc03aec4",
+  "backbone_frozen": true,
+  "transfer_head": "global average pooling + linear 4 class logits",
+  "normalization_mean": [
+    0.48500001430511475,
+    0.4560000002384186,
+    0.4059999883174896
+  ],
+  "normalization_std": [
+    0.2290000021457672,
+    0.2240000069141388,
+    0.22499999403953552
+  ],
+  "class_order": [
+    "bottles",
+    "cups",
+    "pens",
+    "scissors"
+  ],
+  "device": "cpu",
+  "packages": {
+    "torch": "2.15.0",
+    "torchvision": "0.29.2",
+    "timm": "1.0.30",
+    "numpy": "2.5.4",
+    "Pillow": "13.0.0",
+    "scikit-learn": "1.9.1",
+    "onnx": "1.23.2",
+    "onnxruntime": "1.31.1"
+  }
+}

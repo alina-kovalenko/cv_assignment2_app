@@ -1,0 +1,37 @@
+{
+  "package": "com.objectlab.app",
+  "version": "1.2",
+  "version_code": 3,
+  "min_android_api": 26,
+  "target_android_api": 35,
+  "apk_bytes": 81854161,
+  "apk_sha256": "2972e4071aecb2f709d5f400484481b720c087ee0e0160c116718ada6e73e9de",
+  "signature_verification": "apksigner verify --verbose passed, APK v2 signature, one signer",
+  "build": "assembleDebug assembleDebugAndroidTest lintDebug passed after ArtAug updates",
+  "lint_errors": 0,
+  "lint_warnings": 35,
+  "models_verified_byte_for_byte": {
+    "baseline.onnx": {
+      "bytes": 135002,
+      "sha256": "0852f5d72ba921c3a64d7156dff0a8245ece358326fd72256a3f70b25e837dbc"
+    },
+    "sota.onnx": {
+      "bytes": 5043252,
+      "sha256": "381de3415650cfea748bf70880b117674bc0685c367a9f4b5d738bd7b8e10555"
+    }
+  },
+  "class_order_verified": true,
+  "internet_permission": false,
+  "android_device_tested": false,
+  "instrumentation": "compiled successfully; not executed (no attached device, emulator unavailable)",
+  "artaug": {
+    "packaged_approved_examples": 4,
+    "packaged_jpeg_files": 8,
+    "source_originals_verified_byte_for_byte": 4,
+    "apk_assets_verified_byte_for_byte": 9,
+    "generation_executed_on_phone": false,
+    "generator_marked_synthetic": true,
+    "host_jvm_gallery_check": "Production ArtAugView with Android widget and bitmap shims. Five Generate presses showed bottles, cups, pens, scissors, bottles. Tab switching, restored selection and caption order passed."
+  },
+  "signer_certificate_sha256": "d9e92283d76ad9f826a78afa69660d8f0edc6b56eefc58107b9d1c43069fca15"
+}

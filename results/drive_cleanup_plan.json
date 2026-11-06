@@ -1,0 +1,200 @@
+[
+  {
+    "removed_path": "train\\bottles\\photo_5426963673156099991_x.jpg",
+    "file_id": "1374rAzcMtZq4-IzSgEYitT4Uyp4tnZUm",
+    "file_url": "https://drive.google.com/file/d/1374rAzcMtZq4-IzSgEYitT4Uyp4tnZUm/view",
+    "kept_path": "test\\bottles\\15.jpg",
+    "kept_file_id": "1lp-mJ09fjL9frY1KcY4uzFg-nOGbH1aO",
+    "reason": "visually reviewed cross-split same underlying photo; preserve test > validation > training",
+    "status": "pending_signed_in_access"
+  },
+  {
+    "removed_path": "train\\bottles\\photo_5426963673156099992_y.jpg",
+    "file_id": "1vt0uuyG5KLy1E3MAXJl5dA4kqRx4tB1p",
+    "file_url": "https://drive.google.com/file/d/1vt0uuyG5KLy1E3MAXJl5dA4kqRx4tB1p/view",
+    "kept_path": "val\\bottles\\16.jpg",
+    "kept_file_id": "1Z9WgiE1iIW_R9TohJ5ckZxxWbe6OJw4L",
+    "reason": "visually reviewed cross-split same underlying photo; preserve test > validation > training",
+    "status": "pending_signed_in_access"
+  },
+  {
+    "removed_path": "train\\bottles\\photo_5426963673156099995_y.jpg",
+    "file_id": "14m0TLz_4AV2OL7dMDZYsLfYQ687W0UVW",
+    "file_url": "https://drive.google.com/file/d/14m0TLz_4AV2OL7dMDZYsLfYQ687W0UVW/view",
+    "kept_path": "val\\bottles\\28.jpg",
+    "kept_file_id": "1gehUHQcYKOYyK3BME8hHrIC1qZmRoB9P",
+    "reason": "visually reviewed cross-split same underlying photo; preserve test > validation > training",
+    "status": "pending_signed_in_access"
+  },
+  {
+    "removed_path": "train\\bottles\\photo_5426963673156099997_y.jpg",
+    "file_id": "19LZ8AIFg3Q4BM8vG5OlzElXvwCYhtXG5",
+    "file_url": "https://drive.google.com/file/d/19LZ8AIFg3Q4BM8vG5OlzElXvwCYhtXG5/view",
+    "kept_path": "val\\bottles\\22.jpg",
+    "kept_file_id": "12MTuB3xtHkoTLMlcrt1p_qsSEJ5cnyAL",
+    "reason": "visually reviewed cross-split same underlying photo; preserve test > validation > training",
+    "status": "pending_signed_in_access"
+  },
+  {
+    "removed_path": "train\\bottles\\photo_5426963673156100004_y.jpg",
+    "file_id": "1S-2fwLhiA2o6q7PKWfmiTnn_b_t4FLF0",
+    "file_url": "https://drive.google.com/file/d/1S-2fwLhiA2o6q7PKWfmiTnn_b_t4FLF0/view",
+    "kept_path": "test\\bottles\\4.jpg",
+    "kept_file_id": "10LXSnuhnVIjo5DAstKNChZLO399s1xVn",
+    "reason": "visually reviewed cross-split same underlying photo; preserve test > validation > training",
+    "status": "pending_signed_in_access"
+  },
+  {
+    "removed_path": "train\\bottles\\photo_5426963673156100011_y.jpg",
+    "file_id": "1KZaQ26_yXN1mVA72WD2E9viy--iRevL6",
+    "file_url": "https://drive.google.com/file/d/1KZaQ26_yXN1mVA72WD2E9viy--iRevL6/view",
+    "kept_path": "val\\bottles\\1.jpg",
+    "kept_file_id": "1DLYS2zNalJWqf-X1QLVurHm2rh3X0CTR",
+    "reason": "visually reviewed cross-split same underlying photo; preserve test > validation > training",
+    "status": "pending_signed_in_access"
+  },
+  {
+    "removed_path": "train\\bottles\\photo_5426963673156100012_x.jpg",
+    "file_id": "1VCAWKpTqxnX_VMA2Je7v0baZfRGET_0g",
+    "file_url": "https://drive.google.com/file/d/1VCAWKpTqxnX_VMA2Je7v0baZfRGET_0g/view",
+    "kept_path": "test\\bottles\\12.jpg",
+    "kept_file_id": "12jaawpc3jlai70c6txTW2K1MohdAPS7p",
+    "reason": "visually reviewed cross-split same underlying photo; preserve test > validation > training",
+    "status": "pending_signed_in_access"
+  },
+  {
+    "removed_path": "train\\bottles\\photo_5426963673156100013_y.jpg",
+    "file_id": "1icr22DpZoB6TfLdbupTkdswkS-jW4KFx",
+    "file_url": "https://drive.google.com/file/d/1icr22DpZoB6TfLdbupTkdswkS-jW4KFx/view",
+    "kept_path": "test\\bottles\\30.jpg",
+    "kept_file_id": "1ZckpBDpr1nIf0bxaZYYwlO5Vp1zXdJXF",
+    "reason": "visually reviewed cross-split same underlying photo; preserve test > validation > training",
+    "status": "pending_signed_in_access"
+  },
+  {
+    "removed_path": "train\\cups\\photo_5426963673156099934_x.jpg",
+    "file_id": "1tXBzMh_w7Uny5HZ5kgRyQCkFgT93VhMX",
+    "file_url": "https://drive.google.com/file/d/1tXBzMh_w7Uny5HZ5kgRyQCkFgT93VhMX/view",
+    "kept_path": "val\\cups\\89.jpg",
+    "kept_file_id": "1eoFUqvgCp4JfMk3aQk1qoYz0pQTEiwpO",
+    "reason": "visually reviewed cross-split same underlying photo; preserve test > validation > training",
+    "status": "pending_signed_in_access"
+  },
+  {
+    "removed_path": "train\\cups\\photo_5426963673156099937_y.jpg",
+    "file_id": "1I8a6WMAjTCWCcGPN6HdhQuWMmiR3wnId",
+    "file_url": "https://drive.google.com/file/d/1I8a6WMAjTCWCcGPN6HdhQuWMmiR3wnId/view",
+    "kept_path": "val\\cups\\94.jpg",
+    "kept_file_id": "1epkco3aOd3yb2Kfva43YDMSZ-qOGwlgw",
+    "reason": "visually reviewed cross-split same underlying photo; preserve test > validation > training",
+    "status": "pending_signed_in_access"
+  },
+  {
+    "removed_path": "train\\cups\\photo_5426963673156099938_y.jpg",
+    "file_id": "1zwpyF1I7YhMs-zy2e79AuVb5GomIbxV3",
+    "file_url": "https://drive.google.com/file/d/1zwpyF1I7YhMs-zy2e79AuVb5GomIbxV3/view",
+    "kept_path": "val\\cups\\92.jpg",
+    "kept_file_id": "19NPRa_RSpOLUA3ka2ComgjrGgmUz2iEp",
+    "reason": "visually reviewed cross-split same underlying photo; preserve test > validation > training",
+    "status": "pending_signed_in_access"
+  },
+  {
+    "removed_path": "train\\cups\\photo_5426963673156099940_x.jpg",
+    "file_id": "1GYQDTVmZqvc3odfZBE9DR63cPVrA0k9c",
+    "file_url": "https://drive.google.com/file/d/1GYQDTVmZqvc3odfZBE9DR63cPVrA0k9c/view",
+    "kept_path": "val\\cups\\91.jpg",
+    "kept_file_id": "1IUYb32yeKVLvoPAe51CcpKNtXclS4zHB",
+    "reason": "visually reviewed cross-split same underlying photo; preserve test > validation > training",
+    "status": "pending_signed_in_access"
+  },
+  {
+    "removed_path": "train\\cups\\photo_5426963673156099942_y.jpg",
+    "file_id": "1wCn-SSMLtCWY4MiziJDA2TPVO_hk7mZX",
+    "file_url": "https://drive.google.com/file/d/1wCn-SSMLtCWY4MiziJDA2TPVO_hk7mZX/view",
+    "kept_path": "val\\cups\\90.jpg",
+    "kept_file_id": "1y73didMqCm5Ig0lVc7nIPLp650nCuAeM",
+    "reason": "visually reviewed cross-split same underlying photo; preserve test > validation > training",
+    "status": "pending_signed_in_access"
+  },
+  {
+    "removed_path": "train\\pens\\photo_5426963673156100071_y.jpg",
+    "file_id": "1Mz5Md97zMUFi0Sgt6ixVpnSa0fFkhCTV",
+    "file_url": "https://drive.google.com/file/d/1Mz5Md97zMUFi0Sgt6ixVpnSa0fFkhCTV/view",
+    "kept_path": "test\\pens\\10.jpg",
+    "kept_file_id": "13IaNm5UZRUz_wSyQv4FSqanJ1cL9_8BA",
+    "reason": "visually reviewed cross-split same underlying photo; preserve test > validation > training",
+    "status": "pending_signed_in_access"
+  },
+  {
+    "removed_path": "train\\pens\\photo_5426963673156100097_x.jpg",
+    "file_id": "1GpAb6BuaL4Z6ZQUNKMuBRjYKUhn31p1z",
+    "file_url": "https://drive.google.com/file/d/1GpAb6BuaL4Z6ZQUNKMuBRjYKUhn31p1z/view",
+    "kept_path": "val\\pens\\28.jpg",
+    "kept_file_id": "18QKwL9FxK7_aMBw3MP-EscfBwAv1MYo1",
+    "reason": "visually reviewed cross-split same underlying photo; preserve test > validation > training",
+    "status": "pending_signed_in_access"
+  },
+  {
+    "removed_path": "train\\scissors\\31.jpg",
+    "file_id": "1N2TSlzzpIvsykEu4GcHBW8SrWIEyUBeP",
+    "file_url": "https://drive.google.com/file/d/1N2TSlzzpIvsykEu4GcHBW8SrWIEyUBeP/view",
+    "kept_path": "test\\scissors\\photo_5426963673156100176_y.jpg",
+    "kept_file_id": "1uGICmiz_OekBnwRFVz02_EiUAJQfutM_",
+    "reason": "visually reviewed cross-split same underlying photo; preserve test > validation > training",
+    "status": "pending_signed_in_access"
+  },
+  {
+    "removed_path": "train\\scissors\\32.jpg",
+    "file_id": "14ioPZnWOQkuUs-JsvVNzJo-7KnW6_MfD",
+    "file_url": "https://drive.google.com/file/d/14ioPZnWOQkuUs-JsvVNzJo-7KnW6_MfD/view",
+    "kept_path": "test\\scissors\\photo_5426963673156100177_y.jpg",
+    "kept_file_id": "1Tuj5oRyWxofTaopPmTpdvCMWPJtGxDui",
+    "reason": "visually reviewed cross-split same underlying photo; preserve test > validation > training",
+    "status": "pending_signed_in_access"
+  },
+  {
+    "removed_path": "train\\scissors\\photo_5426963673156100137_x.jpg",
+    "file_id": "176y_-qdlRX8OTQchKV1TB_wkPGVL7WbY",
+    "file_url": "https://drive.google.com/file/d/176y_-qdlRX8OTQchKV1TB_wkPGVL7WbY/view",
+    "kept_path": "test\\scissors\\24.jpg",
+    "kept_file_id": "1UyfFa3I9vy-cw0xGhQjsoxSDC4uLL66K",
+    "reason": "visually reviewed cross-split same underlying photo; preserve test > validation > training",
+    "status": "pending_signed_in_access"
+  },
+  {
+    "removed_path": "train\\scissors\\photo_5426963673156100138_y.jpg",
+    "file_id": "1sI4JF4CH2TulxKg-CFpiCUYMfDX4FCSz",
+    "file_url": "https://drive.google.com/file/d/1sI4JF4CH2TulxKg-CFpiCUYMfDX4FCSz/view",
+    "kept_path": "val\\scissors\\23.jpg",
+    "kept_file_id": "1byK2Jvc4NAb4qKpJgO_DDejRd_lwfkf6",
+    "reason": "visually reviewed cross-split same underlying photo; preserve test > validation > training",
+    "status": "pending_signed_in_access"
+  },
+  {
+    "removed_path": "val\\cups\\96.jpg",
+    "file_id": "10-q3Rb3IejcRLv0-TZpQF95QsgNedMQY",
+    "file_url": "https://drive.google.com/file/d/10-q3Rb3IejcRLv0-TZpQF95QsgNedMQY/view",
+    "kept_path": "test\\cups\\photo_5426963673156099965_y.jpg",
+    "kept_file_id": "1U_UsB664aSDPGlG7vS7KOI40Mb-G8xpK",
+    "reason": "visually reviewed cross-split same underlying photo; preserve test > validation > training",
+    "status": "pending_signed_in_access"
+  },
+  {
+    "removed_path": "val\\scissors\\photo_5426963673156100174_y.jpg",
+    "file_id": "1de4q22NUiw9PdEs2z_J-IJJS5gajdKZz",
+    "file_url": "https://drive.google.com/file/d/1de4q22NUiw9PdEs2z_J-IJJS5gajdKZz/view",
+    "kept_path": "test\\scissors\\1.jpg",
+    "kept_file_id": "1TAWdzpa7O2oYSL3peSg5AVXqFedcVrEY",
+    "reason": "visually reviewed cross-split same underlying photo; preserve test > validation > training",
+    "status": "pending_signed_in_access"
+  },
+  {
+    "removed_path": "train\\scissors\\photo_5426963673156100143_x(1).jpg",
+    "file_id": "1sP5vP3bAtgAXlyCu6A6g3A7SNDpb02Hx",
+    "file_url": "https://drive.google.com/file/d/1sP5vP3bAtgAXlyCu6A6g3A7SNDpb02Hx/view",
+    "kept_path": "train\\scissors\\photo_5426963673156100143_x.jpg",
+    "kept_file_id": "1OjRqMkKeO08zSh7LTcivdnxSGco_zw21",
+    "reason": "same-split byte-identical redundant file; deterministic shortest unsuffixed path retained",
+    "status": "pending_signed_in_access"
+  }
+]
