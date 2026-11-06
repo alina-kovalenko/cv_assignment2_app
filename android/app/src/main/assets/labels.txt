@@ -1,0 +1,4 @@
+bottles
+cups
+pens
+scissors

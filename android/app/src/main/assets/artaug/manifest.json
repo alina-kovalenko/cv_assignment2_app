@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "generator": {
+    "method": "released adapter inference; not the original ArtAug training method",
+    "synthetic_images": true,
+    "base_model_id": "black-forest-labs/FLUX.1-Kontext-dev",
+    "base_revision": "24e9dedc4ef646698dc8eb4e18ae2cec3c9fea0d",
+    "aux_model_id": "black-forest-labs/FLUX.1-dev",
+    "aux_revision": "3de623fc3c33e44ffbe2bad470d0f45bccf2eb21",
+    "adapter_id": "DiffSynth-Studio/FLUX.1-Kontext-dev-lora-ArtAug",
+    "adapter_revision": "233ead067a3a7fb3ead750337c771aa457d9ad13",
+    "adapter_sha256": "ec6083c7c0771cef2436fc69fe95882470bba0c678e5006327d023c917ce9904",
+    "diffsynth": "2.1.12",
+    "torch": "2.11.0+cu130",
+    "compute_dtype": "bfloat16",
+    "offload_storage": "float8_e4m3fn",
+    "resolution_max_side": 768,
+    "steps": 30,
+    "embedded_guidance": 2.5,
+    "weight_source": "verified_local_bundle",
+    "local_manifest_sha256": "3f988847f8f6c17741b261b4ae2c32d419230831f399c6a9eda082b8470dd8e1",
+    "verified_local_file_count": 14,
+    "offload_strategy": "DiffSynth 2.1.12 disk offload for Kontext DiT and T5; CPU FP8 for CLIP and VAE",
+    "lora_A_weight_count": 304,
+    "lora_B_weight_count": 304
+  },
+  "source_manifest_sha256": "8bbcba7e3a18460b88a6e76e8ec8c129e94bafb814ac50de1d9408839ccb4764",
+  "examples": [
+    {
+      "id": "83265545fffeaf0d",
+      "class_name": "bottles",
+      "source_manifest_path": "train/bottles/photo_5426963673156099989_y.jpg",
+      "source_sha256": "848aa8da2bddfab19a1472d955f8002518b4fa3ae51421c9ab091da9e2bf846a",
+      "original": "images/83265545fffeaf0d_original.jpg",
+      "original_sha256": "848aa8da2bddfab19a1472d955f8002518b4fa3ae51421c9ab091da9e2bf846a",
+      "enhanced": "images/83265545fffeaf0d_enhanced.jpg",
+      "enhanced_sha256": "b20acbd97c8a4021ea63006cca3793e7d25b4f48b55cf4ce8e21d75c26fedb02",
+      "prompt": "Improve the lighting and visual clarity of this bottle photograph. Reduce distracting glare while preserving the bottle’s shape, colour, cap and label. Keep the background and camera angle unchanged. Do not add or remove objects.",
+      "seed": 4127,
+      "approved": true,
+      "generation": {
+        "started_utc": "2026-11-06T06:56:53.790952+00:00",
+        "duration_seconds": 1173.738,
+        "gpu": "Tesla T4",
+        "requested_resolution": [
+          576,
+          768
+        ],
+        "actual_resolution": [
+          576,
+          768
+        ],
+        "conditioning_resolution": [
+          576,
+          768
+        ],
+        "conditioning_resize": "EXIF-transposed RGB resized with Lanczos; max side 768; dimensions floored to multiples of 16, minimum 16",
+        "conditioning_tiled": false,
+        "steps": 30,
+        "embedded_guidance": 2.5
+      }
+    },
+    {
+      "id": "d7b947bddc0ae98d",
+      "class_name": "cups",
+      "source_manifest_path": "train/cups/6.jpg",
+      "source_sha256": "5188da5f7172bad53b71e32a8b4a684f96c0a33fb6b076df7091fda80fe22342",
+      "original": "images/d7b947bddc0ae98d_original.jpg",
+      "original_sha256": "5188da5f7172bad53b71e32a8b4a684f96c0a33fb6b076df7091fda80fe22342",
+      "enhanced": "images/d7b947bddc0ae98d_enhanced.jpg",
+      "enhanced_sha256": "08142f976fa91f0dc2140065d2284889e0b7a85276cfbbc9b4017431d4a3022a",
+      "prompt": "Improve the exposure and clarity of this cup. Soften harsh shadows while preserving the cup’s shape, colour, handle and any printed design. Keep the background and camera angle unchanged. Do not add or remove objects.",
+      "seed": 4128,
+      "approved": true,
+      "generation": {
+        "started_utc": "2026-11-06T07:16:57.058339+00:00",
+        "duration_seconds": 521.33,
+        "gpu": "Tesla T4",
+        "requested_resolution": [
+          352,
+          448
+        ],
+        "actual_resolution": [
+          352,
+          448
+        ],
+        "conditioning_resolution": [
+          352,
+          448
+        ],
+        "conditioning_resize": "EXIF-transposed RGB resized with Lanczos; max side 768; dimensions floored to multiples of 16, minimum 16",
+        "conditioning_tiled": false,
+        "steps": 30,
+        "embedded_guidance": 2.5
+      }
+    },
+    {
+      "id": "749d97e16adbec01",
+      "class_name": "pens",
+      "source_manifest_path": "train/pens/78.jpg",
+      "source_sha256": "35449177be504196b94d7bc94cd17777f561935f3be79c3cee71c1efc59f2136",
+      "original": "images/749d97e16adbec01_original.jpg",
+      "original_sha256": "35449177be504196b94d7bc94cd17777f561935f3be79c3cee71c1efc59f2136",
+      "enhanced": "images/749d97e16adbec01_enhanced.jpg",
+      "enhanced_sha256": "3ddfef5f06b764e0c499db330ec1b429c19c566d7b43918cb4346024d7ad0999",
+      "prompt": "Improve the lighting and contrast of this pen photograph so its outline is easier to see. Preserve its shape, colour, tip, cap and visible markings. Keep the background and camera angle unchanged. Do not add or remove objects.",
+      "seed": 4129,
+      "approved": true,
+      "generation": {
+        "started_utc": "2026-11-06T07:25:49.414901+00:00",
+        "duration_seconds": 1154.576,
+        "gpu": "Tesla T4",
+        "requested_resolution": [
+          576,
+          768
+        ],
+        "actual_resolution": [
+          576,
+          768
+        ],
+        "conditioning_resolution": [
+          576,
+          768
+        ],
+        "conditioning_resize": "EXIF-transposed RGB resized with Lanczos; max side 768; dimensions floored to multiples of 16, minimum 16",
+        "conditioning_tiled": false,
+        "steps": 30,
+        "embedded_guidance": 2.5
+      }
+    },
+    {
+      "id": "cae86b8c27dded0a",
+      "class_name": "scissors",
+      "source_manifest_path": "train/scissors/62.jpg",
+      "source_sha256": "153ac52438dfb5a10cfe6125b9f77cf759482a34608bc2cb59eb2aea2fb5db36",
+      "original": "images/cae86b8c27dded0a_original.jpg",
+      "original_sha256": "153ac52438dfb5a10cfe6125b9f77cf759482a34608bc2cb59eb2aea2fb5db36",
+      "enhanced": "images/cae86b8c27dded0a_enhanced.jpg",
+      "enhanced_sha256": "91b8d0ad5c2f33923d4e82ebd3be56846c4d808db7d9e4427399fe479d1e087a",
+      "prompt": "Improve the lighting and clarity of this scissors photograph. Reduce glare on the blades while preserving both blades, the handles, their colours and the opening angle. Keep the background unchanged. Do not add or remove objects.",
+      "seed": 4130,
+      "approved": true,
+      "generation": {
+        "started_utc": "2026-11-06T07:45:19.231332+00:00",
+        "duration_seconds": 1156.396,
+        "gpu": "Tesla T4",
+        "requested_resolution": [
+          576,
+          768
+        ],
+        "actual_resolution": [
+          576,
+          768
+        ],
+        "conditioning_resolution": [
+          576,
+          768
+        ],
+        "conditioning_resize": "EXIF-transposed RGB resized with Lanczos; max side 768; dimensions floored to multiples of 16, minimum 16",
+        "conditioning_tiled": false,
+        "steps": 30,
+        "embedded_guidance": 2.5
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "source": "Assignment1_CV_AlinaKovalenko(1).ipynb saved outputs",
+  "test_size": 60,
+  "reported_dataset_size": 441,
+  "class_order": [
+    "bottles",
+    "cups",
+    "pens",
+    "scissors"
+  ],
+  "logistic_regression": {
+    "accuracy": 0.3333,
+    "macro_precision": 0.3409,
+    "macro_recall": 0.3333,
+    "macro_f1": 0.3327
+  },
+  "cnn": {
+    "accuracy": 0.3667,
+    "macro_precision": 0.3168,
+    "macro_recall": 0.3667,
+    "macro_f1": 0.3169
+  },
+  "note": "Historical metrics on original split; neither original fitted checkpoint was supplied. Do not assign these scores to the retrained app weights."
+}
